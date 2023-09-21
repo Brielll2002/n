@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    font: 15pt arial normal;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(46, 97, 139) 50%, rgb(118, 141, 160));
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: -8px -8px 5px -8px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    #botao{
+        margin-top: 5px;
+        background-color: rgb(72, 161, 72);
+        color: white;
+        padding: 5px;
+        }
+
+
+#div1{
+    background-color: rgb(46, 97, 139);
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+#div2{
+    background-color: rgb(46, 97, 139);
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+#div3{
+    background-color: rgb(46, 97, 139);
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+    #L{background-color: rgb(168, 58, 58);
+    color: white;
+    padding: 3px;}
+
+@media screen and (max-width:750px){
+
+    #div1{
+        width: 300px;
+        padding: 5px;
+    }
+
+    #div2{
+        width: 300px;
+        padding: 5px;
+    }
+
+    #div3{
+        width: 300px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Notas e Médias</h1>
+    </header>
+
+    <div id="div1">
+        <input type="Nome" id="nome" placeholder="Nome do aluno"><br>
+        <input type="number" name="m1" id="m1" placeholder="Nota 1 unidade"><br>
+        <input type="number" name="m2" id="m2" placeholder="Nota 2 unidade"><br>
+        <input type="number" name="m3" id="m3" placeholder="Nota 3 unidade"><br>
+        <input type="number" name="m4" id="m4" placeholder="Nota 4 unidade"><br>
+        <input type="button" value="Enviar" onclick="enviar()" id="botao"><br>
+        <p id="enviado"></p>
+    </div>
+
+    <div id="div2">
+        <input type="button" value="Ver Notas" onclick="buscar()" id="botao">
+        <p id="mostrar"></p>
+    </div>
+
+    <div id="div3">
+        <label for="Limpar Dados">Limpar todas as notas armazenadas</label><br>
+        <input type="button" value="Limpar Dados" onclick="limparDados()" id="L">
+    </div>
+
+</body>
+</html>
